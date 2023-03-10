@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+.elements{
+
+   
+    display: flex;
+    /* margin-inline: 1rem; */
+    margin-top: 3rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.child-element{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    /* margin-inline:0.3rem; */
+    padding: 15PX;
+    border: 1px solid wheat ;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
+
+}
+.child-element img{
+    width: 200px;
+    height: 200px;
+}
+.add-link{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 0.3rem 1.3rem ;
+    width: 4rem;
+    border-radius: 13px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.add-link:hover{
+    background: #b8d9ff;
+}
+/* .elements img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1rem;
+} */
+.add{
+    padding: 7px 15px;
+    background-color: rgb(228, 195, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2rem;
+    margin-top: 12px;
+    color: rgb(225, 28, 81);
+    text-decoration: none;
+    
+}
+.addedtocart{
+    padding: 7px 15px;
+    background-color: rgb(85, 80, 54,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+    margin-top: 12px;
+    color: rgb(228, 195, 3);
+    text-decoration: none;
+}
+.item-title{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.bucket{
+    position:absolute;
+    right:10px;
+}
+.bucketlength{
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 50rem;
+    color: white;
+}
+.active{
+    color: red  ;
+  
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-inline: 4rem;
+  
+    
+
+}
+.Navbar li{
+    list-style: none ;
+    /* color:palegreen; */
+    
+}
+.Navbar h1{
+    color: rgb(228, 195, 3);
+    position: relative;
+    bottom: 10px;
+    
+}
+.navlist{
+    display: flex;
+    gap: 30px;
+}
+.navlist li {
+    text-decoration: none;
+    list-style: none;
+    font-size:1.3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+.link{
+    text-decoration: none;
+    color: aquamarine;
+    
+}
+.form{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-block: 2rem;
+    font-size: 1.5rem;
+}
+
+.form-container-parent{
+    display: flex;
+    justify-content: center;
+    background-color: #b8d9ff;
+    height: 95vh;
+}
+
+.form-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(10, 10, 157);
+    border: 1px transparent black;
+    width: 30rem;
+    height: 30rem;
+    background-color: rgba(64, 64, 64, 0.3);
+    border-radius: 2rem;
+   box-shadow: 0px 0px 5px 1px rgb(66, 66, 66);
+}
+.form-container button{
+padding-block: 4px;
+border-radius: 10rem;
+}
+.form-container button:hover{
+    cursor: pointer;
+    background-color: rgb(120, 120, 192);
+}
+.form-container h1{
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.form input{
+  align-self: center;
+    width: 25rem;
+    height: 2rem;
+    border-radius: 10px;
+    margin-block: 0.1rem 1.5rem;
+text-align: center;
+}
+
+.contact .submitt{
+    width: 5rem;
+    align-self: center;
+   
+}
+.about{
+    
+    margin-top: 8rem;
+    width: 55rem;
+    height: 10rem;
+    margin-left: 20rem;
+   
+}
+.dark{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 4.6rem;
+    position: absolute;
+    margin-top: -1rem;
+    z-index: -1;
+    
+}
+
+.singleitemwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singleitem img{
+    height: 400px;
+    width: 300px;
+    align-self: center;
+}
+.singleitem{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    margin-top:4rem;
+    font-size: 1rem;
+    color: green;
+}
+.singleitem h4{
+    width: 500px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.singleitem p{
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+.cartitems{
+    width: 500px;
+    display: flex;
+    
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 2rem 1rem;
+}
+.cartitems img{
+    height: 100px;
+    width: 100px;
+}
+
+.cartitems-container{
+    margin-top: 5rem;
+    margin-right: 20rem;
+
+}
+/* items in singlepage */
+.cartitems-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+
+}
+
+.cartitems-flexbox{
+    justify-content: center;
+    display: flex;
+    
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    width: 100%;
+    margin-left: 10rem;
+    
+}
+/* vertical line */
+.line{
+    border-right: 1.4px solid rgb(134, 129, 129);
+    height: 6rem;
+    
+}
+
+.cartitems-content2{
+    margin-left: 13rem;
+}
+.cartitems-content2 p{
+    margin-left: 2.5rem;
+    margin-top: 0.4rem;
+}
+.delete{
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    padding: 0.3rem 0rem;
+   color: red;
+
+
+}
+
+.counter-form{
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+.counter-form p{
+    margin-left:2rem ;
+}
+.counter-form button{
+    padding-inline: 4px 5px;
+}
+.counter-form input{
+    padding-inline: -3rem;
+}
+.cartlength{
+    position: absolute;
+    bottom: 37px;
+    right: 65px;
+    padding: 3px 9px ;
+    border: 1px transparent white;
+    background-color: rgb(93, 91, 91);
+    border-radius: 30rem;
+    z-index: 10;
+    color: yellow;
+    font-size: medium;
+    font-weight: bold;
+}
+.cartitem-title{
+    width: 12rem;
+}
+.about-container-parent{
+    display: flex;
+    justify-content: center;
+    background-color: #b8d9ff;
+height: 700px;
+    }
+.about-container{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.about-container h1{
+    border-bottom:4px solid  rgb(30, 24, 151);
+}
+.about-container p{
+    font-size: 1.2rem;
+  
+}
+
+.subtotal{
+    position: relative;
+    left: 68.5rem;
+    top: 1rem;
+    border-bottom: 3px solid rgb(31, 31, 108);
+    width:10rem ;
+}
+
