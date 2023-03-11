@@ -82,7 +82,7 @@ useEffect(()=>{
             Qty:<input type="number" min='1' max='5' defaultValue='1'  /> 
            </form>
 
-           <p> ₹ {(item.price*item.quantity)}</p> 
+           <p> ₹ {Math.floor(item.price*85*item.quantity)}</p> 
            </div>
 
 
@@ -100,7 +100,7 @@ useEffect(()=>{
       
       {/* SUBTOTAL */}
       <div className="subtotal">
-        <h2>Subtotal:₹ {subtotal}</h2>
+        <h2>Subtotal:₹ {subtotal*85}</h2>
       </div>
 
     </>
